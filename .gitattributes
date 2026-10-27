@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Disable automatic line ending conversion for all files.
+# Keep line endings (LF or CRLF) exactly as they are.
+* -text
+
+# Markdown always has LF, in the repository and in the working folder.
+*.md text eol=lf
